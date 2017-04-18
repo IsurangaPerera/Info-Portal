@@ -4,6 +4,7 @@
     <list default="true" id="e3210dab-678b-47da-8079-9aa188cd968b" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/github_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Info-Model/src/main/java/org/vip/info/dao/AbstractRepository.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stssecurity/security-mgt/src/main/java/org/wso2/carbon/sts/security/policy/Message.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stssecurity/sts-mgt/pom.xml" />
     </list>
@@ -84,9 +85,10 @@
       <file leaf-file-name="AbstractRepository.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Info-Model/src/main/java/org/vip/info/dao/AbstractRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-262">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#490#491#0" expanded="true" />
                 <element signature="e#520#521#0" expanded="true" />
                 <element signature="e#570#571#0" expanded="true" />
@@ -171,7 +173,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -233,38 +235,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Info-Portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Info-Portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Info-Portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Info-Portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Info-Portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msf4j-service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -885,9 +855,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Info-Model/src/main/java/org/vip/info/dao/AbstractRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="405">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#490#491#0" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
             <element signature="e#570#571#0" expanded="true" />
