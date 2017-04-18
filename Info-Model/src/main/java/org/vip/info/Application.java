@@ -14,7 +14,7 @@ public class Application {
     }
 
     public static UserRepository getUserRepository() {
-        return new UserRepository(Persistence.createEntityManagerFactory("org.hibernate.tutorial.jpa"));
+        return new UserRepository(Persistence.createEntityManagerFactory("org.hibernate.jpa"));
     }
 
 }

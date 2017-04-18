@@ -1,21 +1,22 @@
 <persistence xmlns="http://java.sun.com/xml/ns/persistence"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd
+http://java.sun.com/xml/ns/persistence "
              version="2.0">
 
-    <persistence-unit name="org.hibernate.tutorial.jpa">
+    <persistence-unit name="org.hibernate.jpa">
 
         <class>org.vip.info.model.User</class>
 
         <!-- For in-memory H2 database -->
         <properties>
-            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1;MVCC=TRUE" />
-            <property name="javax.persistence.jdbc.user" value="sa" />
-            <property name="javax.persistence.jdbc.password" value="" />
+            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1;MVCC=TRUE"/>
+            <property name="javax.persistence.jdbc.user" value="sa"/>
+            <property name="javax.persistence.jdbc.password" value=""/>
 
-            <property name="hibernate.show_sql" value="true" />
-            <property name="hibernate.hbm2ddl.auto" value="create" />
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
         </properties>
 
         <!-- For MySQL database -->
