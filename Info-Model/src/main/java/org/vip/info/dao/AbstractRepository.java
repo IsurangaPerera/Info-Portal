@@ -1,6 +1,6 @@
 package org.vip.info.dao;
 
-import org.vip.info.model.User;
+import org.vip.info.model.*;
 
 import java.util.List;
 import javax.persistence.EntityManager;
@@ -51,4 +51,6 @@ public abstract class AbstractRepository<T> {
         TypedQuery<T> allQuery = getEntityManager().createQuery(all);
         return allQuery.getResultList();
     }
+
+    pr
 }
