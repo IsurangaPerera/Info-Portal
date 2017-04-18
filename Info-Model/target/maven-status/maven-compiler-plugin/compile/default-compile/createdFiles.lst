@@ -1,0 +1,5 @@
+org/vip/info/dao/AbstractRepository.class
+org/vip/info/Application.class
+org/vip/info/dao/UserRepository.class
+org/vip/info/resource/UserResource.class
+org/vip/info/model/User.class
