@@ -12,4 +12,4 @@ COPY packages/petstore-pet.jar /opt/
 # ----------------------
 EXPOSE 8080
 
-ENTRYPOINT java -jar /opt/petstore-pet.jar
+ENTRYPOINT java -jar /opt/info-model.jar
