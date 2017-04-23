@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3210dab-678b-47da-8079-9aa188cd968b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stssecurity/security-mgt/src/main/java/org/wso2/carbon/sts/security/engine/PolicyConfigurationEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stssecurity/sts-mgt/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stssecurity/security-mgt/src/main/java/org/wso2/carbon/sts/security/handler/UTCallbackHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/scala_config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Info-Model/container/docker/Dockerfile" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/github_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Info-Model/src/main/java/org/vip/info/dao/AbstractRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/scala_config.xml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/ui.lnf.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stssecurity/.idea/uiDesigner.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Info-Model/src/main/java/org/vip/info/dao/AbstractRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stssecurity/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stssecurity/security-mgt/src/main/java/org/wso2/carbon/sts/security/engine/PolicyConfigurationEngine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stssecurity/security-mgt/src/main/java/org/wso2/carbon/sts/security/handler/UTCallbackHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stssecurity/sts-mgt/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Info-Model/container/docker/Dockerfile" afterPath="$PROJECT_DIR$/Info-Model/container/docker/Dockerfile" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,8 +58,8 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Info-Model/container/docker/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="105">
+              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -1550,8 +1549,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Info-Model/container/docker/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        <state relative-caret-position="105">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
       </provider>

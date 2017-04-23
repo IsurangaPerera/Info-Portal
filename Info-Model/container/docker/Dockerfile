@@ -5,7 +5,7 @@ WORKDIR /opt
 # --------------------------------
 # Copy scripts, packages & plugins
 # --------------------------------
-COPY packages/petstore-pet.jar /opt/
+COPY packages/info-model.jar /opt/
 
 #----------------------
 # Expose container ports
