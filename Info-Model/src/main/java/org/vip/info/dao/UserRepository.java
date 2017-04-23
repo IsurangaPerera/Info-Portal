@@ -20,7 +20,7 @@ public class UserRepository extends AbstractRepository<User> {
     }
 
     public User findUser(long id) {
-        return find(id);
+        return (User)find(id, User.class);
     }
 
     public List<User> findUsers() {

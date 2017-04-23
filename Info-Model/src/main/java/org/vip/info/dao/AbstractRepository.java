@@ -39,8 +39,8 @@ public abstract class AbstractRepository<T> {
         manager.close();
     }
 
-    protected User find(long id) {
-        return getEntityManager().find(User.class, id);
+    protected Object find(long id, Class t) {
+        return getEntityManager().find(t, id);
     }
 
     protected List<T> findAll(Class<T> clazz) {
@@ -51,6 +51,4 @@ public abstract class AbstractRepository<T> {
         TypedQuery<T> allQuery = getEntityManager().createQuery(all);
         return allQuery.getResultList();
     }
-
-    pr
 }

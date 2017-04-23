@@ -1,11 +1,15 @@
 package org.vip.info.model;
 
 import javax.persistence.Column;
+import javax.persistence.OneToMany;
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
+import java.util.List;
 
 @Entity
 @Table(name = "location")
@@ -18,7 +22,7 @@ public class Location {
     @Column
     private float latitude;
 
-    @clomun
+    @Column
     private float longitude;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "location", orphanRemoval = true)

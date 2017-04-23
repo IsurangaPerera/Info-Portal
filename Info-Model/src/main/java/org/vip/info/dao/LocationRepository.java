@@ -1,6 +1,6 @@
 package org.vip.info.dao;
 
-import org.vip.info.model.User;
+import org.vip.info.model.Location;
 
 import java.util.List;
 import javax.persistence.EntityManagerFactory;
@@ -19,8 +19,8 @@ public class LocationRepository extends AbstractRepository {
         remove(location);
     }
 
-    public User findLocation(long id) {
-        return find(id);
+    public Location findLocation(long id) {
+        return (Location)find(id, Location.class);
     }
 
     public List<Location> findLocations() {
