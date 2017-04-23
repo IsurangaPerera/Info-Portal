@@ -59,8 +59,8 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Info-Model/container/docker/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -236,6 +236,7 @@
         <option value="$PROJECT_DIR$/Info-Model/src/main/java/org/vip/info/dao/UserRepository.java" />
         <option value="$PROJECT_DIR$/Info-Model/src/main/java/org/vip/info/dao/LocationRepository.java" />
         <option value="$PROJECT_DIR$/deployment/docker-compose/run.sh" />
+        <option value="$PROJECT_DIR$/Info-Model/container/docker/Dockerfile" />
       </list>
     </option>
   </component>
@@ -1549,8 +1550,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Info-Model/container/docker/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
           <folding />
         </state>
       </provider>
